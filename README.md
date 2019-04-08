@@ -3,6 +3,8 @@ binaryfile-tool
 
 A tool that converts binary or hexadecimal numeric string to binary file.
 
+`**Warning**`:please compile to x86 program!
+
 usage
 --------
 
