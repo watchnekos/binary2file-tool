@@ -3,14 +3,14 @@ binaryfile-tool
 
 A tool that converts binary or hexadecimal numeric string to binary file.
 
-`**Warning**`:please compile to x86 program!
+`*Warning*`:please compile to x86 program!
 
 usage
 --------
 
-run in command line:
+run in command line (Windows):
 
-`bin2file InputType [OutputFile] < InputFilePath`
+`bin2file-tool[.exe] InputType [OutputFile] < InputFilePath`
 
 ### arguments
 
