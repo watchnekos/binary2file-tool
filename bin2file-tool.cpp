@@ -29,8 +29,8 @@ int main(int argc, char* argv[])
 		if (sscanf_s(argv[1], "%d", &inType) && (inType == 2 || inType == 16)) {
 			FILE* fp;
 			fopen_s(&fp, outfilepath, "wb");
-			//printf("inType:%d\n", inType);
 			if (fp != NULL) {
+				printf("Processing...\n");
 				while (!finish) {
 					BYTE byte = ReadOneByte();
 					if (!finish)fwrite(&byte, 1, 1, fp);
