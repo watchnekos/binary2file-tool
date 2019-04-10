@@ -23,7 +23,6 @@ int main(int argc, char* argv[])
 		tm_now.tm_year + 1900, tm_now.tm_mon + 1, tm_now.tm_mday, tm_now.tm_hour, tm_now.tm_min, tm_now.tm_sec);
 
 	switch (argc) {
-	case 1:printhelp(); exit(0);
 	case 3:outfilepath = argv[2];//注意这里不要添加break;//DON'T break;
 	case 2:
 		if (sscanf_s(argv[1], "%d", &inType) && (inType == 2 || inType == 16)) {
